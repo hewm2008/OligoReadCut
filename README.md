@@ -20,7 +20,7 @@ For <b>linux/Unix </b> static
         cd OligoReadCutXXX;                           # [zlib] and copy them to the library Dir
         make ; make clean                        # OligoReadCut-xx/src/include/zlib
         ./bin/OligoReadCut  </pre>
-
+  
 **Note:** If fail to link,try to <b>re-install</b> the libraries [**_zlib_**](https://zlib.net/)
 
 ###  2) Example of OligoReadCut
@@ -49,7 +49,7 @@ For <b>linux/Unix </b> static
 ```
 # 2.1)  Oligo Read2  fq file
 	./bin/OligoReadCut -InFq1 Oligo.R1.fq -InFq2 Oligo.R2.fq  -OutFq1 NewOligo.R1.fq -OutFq2 NewOligo.R2.fq
-
+ 
 ```
 
 
